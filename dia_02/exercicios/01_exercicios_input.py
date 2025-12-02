@@ -24,6 +24,7 @@ input(p3)
 input(p4)
 input(p5)
 
+
 # %% | Exercício 4
 # Faça um programa que receba um número inteiro e calcule sua raiz quadrada e exiba o resultado.
 numero = input("Quero saber a raiz quadrada do número:")
@@ -33,6 +34,7 @@ raiz_quadrada = numero ** 0.5
 raiz_quadrada = round(raiz_quadrada, 4)
 
 print("A raiz quadrada de", numero, "é:", raiz_quadrada)
+
 
 # %% | Exercício 5
 # Faça um programa que exiba o dobro de um número inserido pelo usuário.

@@ -41,6 +41,7 @@ else:
     valor_total = valor_item * quantidade_garrafas
     print("Valor da conta é: R$", conta)
 
+
 #%% 3) Faça o programa de uma sorveteria, onde o usuário pode escolher:
 #   a. Tipo de sorvete: casquinha (R$1,00), cascão (R$2,50), cestinha (R$4,00)
 #   b. Sabor do sorvete: morango, creme, chocolate

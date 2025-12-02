@@ -9,6 +9,7 @@ while multiplicador <= 100:
 
 print("Finalizou!")
 
+
 #%% Quais são os números divisiveis por 4 no intervalo de 4 até 100
 dividendo = 4
 divisor = 4
