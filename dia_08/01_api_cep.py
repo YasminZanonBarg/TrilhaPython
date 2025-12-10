@@ -18,7 +18,7 @@ data = []
 for cep in tqdm(ceps):
     response = requests.get(url.format(cep=cep))
     if response.status_code == 200:
-        data.append(response.json)
+        data.append(response.json())
 
 #%% 
 dataset = pd.DataFrame(data)
@@ -28,4 +28,3 @@ dataset.to_csv("ceps.csv", sep=";")
 #%% Salvando os dados
 with open("ceps.json", "w", encoding='utf-8') as open_file:
     json.dump(data, open_file, ensure_ascii=False, indent=4)
-    
